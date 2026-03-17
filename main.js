@@ -62,3 +62,6 @@ function knightMoves(start, end) {
   }
   return "no path";
 }
+
+console.log("Knight Moves from 0,0 to 7,7 are:");
+console.log(knightMoves("0,0", "7,7"));
